@@ -1,0 +1,19 @@
+- model: MM.A
+  pk: "001"
+  fields:
+    name: "AA"
+    play: "DS"
+
+
+- model: MM.A
+  pk: "002"
+  fields:
+    name: "BB"
+    play: "AS"
+
+
+- model: MM.A
+  pk: "003"
+  fields:
+    name: "CC"
+    play: "CV"
