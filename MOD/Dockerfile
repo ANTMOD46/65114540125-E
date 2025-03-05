@@ -10,4 +10,4 @@ RUN python manage.py migrate
 
 EXPOSE 9999
 
-CMD [ "python","mange.py","runserver","0.0.0.0:9999" ]
+CMD [ "python","manage.py","runserver","0.0.0.0:9999" ]
