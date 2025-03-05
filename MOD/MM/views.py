@@ -10,7 +10,6 @@ def AS(requrest):
 
 class ES(UpdateView):
     model = A
-    fields = '__all__'
     template_name = 'E.html'
     success_url = reverse_lazy('A')
 

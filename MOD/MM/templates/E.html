@@ -1,6 +1,9 @@
-<h1>edit</h1>
+<h1>del {{ object.name }}</h1>
+<p>want to del {{ object.name }} - {{ object.play }} - {{ object.id }}</p>
+
 <form method="post">
     {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">แก้ไขจ้า</button>
+    <button type="submit">Confirm Delete</button>
 </form>
+
+<a href="{% url 'A' %}">Cancel</a>
